@@ -13,12 +13,12 @@ export class AppComponent {
 
   transferencias: any[] = [];
 
-  transferir($event:any){
-    console.log("Cheguei");
-    console.log($event);
-    this.service.adicionar($event)
+  // transferir($event:any){
+  //   console.log("Cheguei");
+  //   console.log($event);
+  //   this.service.adicionar($event)
 
-  }
+  // }
 
 }
 /*
@@ -26,5 +26,5 @@ export class AppComponent {
 https://github.com/typicode/json-server
 http://localhost:3000/transferencias/
 
-http://json2ts.com/ - Converter json em classe
+http://json2ts.com/ - Converter json em classe - Rodar no cmd "json-server --watch db.json"
 */
