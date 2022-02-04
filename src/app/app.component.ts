@@ -9,14 +9,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'DemoAngular';
 
-
-
   constructor(private service: TransferenciaService){ }
 
   transferencias: any[] = [];
-  //valor: number;
-  //destino: number;
-
 
   transferir($event:any){
     console.log("Cheguei");
@@ -26,3 +21,10 @@ export class AppComponent {
   }
 
 }
+/*
+
+https://github.com/typicode/json-server
+http://localhost:3000/transferencias/
+
+http://json2ts.com/ - Converter json em classe
+*/
